@@ -1,0 +1,51 @@
+{
+  "artist": "Muse",
+  "year": 2004,
+  "name": "Absolution",
+  "cover": "https://i1.wp.com/hipersonica.com/wp-content/uploads/2012/12/museabsolution.jpg?fit=1425%2C1425&ssl=1",
+  "tracks": [
+    { "name": "Intro", "duration": 22, "popularity": 1 },
+    { "name": "Apocalypse Please", "duration": 253, "popularity": 4 },
+    { "name": "Time is Running Out", "duration": 237, "popularity": 5 },
+    { "name": "Sing for Absolution", "duration": 295, "popularity": 5 },
+    { "name": "Stockholm Syndrome", "duration": 297, "popularity": 5 },
+    { "name": "Falling Away with You", "duration": 281, "popularity": 4 },
+    { "name": "Interlude", "duration": 38, "popularity": 4 },
+    { "name": "Hysteria", "duration": 227, "popularity": 6 },
+    { "name": "Blackout", "duration": 262, "popularity": 4 },
+    { "name": "Butterflies and Hurricanes", "duration": 302, "popularity": 4 },
+    { "name": "The Small Print", "duration": 209, "popularity": 4 },
+    { "name": "Endlessly", "duration": 229, "popularity": 4 },
+    { "name": "Thoughts of a Dying Atheist", "duration": 187, "popularity": 4 },
+    { "name": "Ruled by Secrecy", "duration": 292, "popularity": 4 },
+    { "name": "Fury", "duration": 302, "popularity": 4 }
+  ],
+  "label": "A&E Records Limited",
+  "otherAlbums": [
+    {
+      "name": "Simulation Theory (Super Deluxe)",
+      "cover": "https://www.elquintobeatle.com/wp-content/uploads/2018/08/muse-simulation-theory-1-1068x1068.jpg",
+      "year": 2018
+    },
+    {
+      "name": "Drones",
+      "cover": "https://images-na.ssl-images-amazon.com/images/I/81BqtUgg%2BgL._SL1500_.jpg",
+      "year": 2015
+    },
+    {
+      "name": "Live at Rome Olympic Stadium",
+      "cover": "https://images-na.ssl-images-amazon.com/images/I/915ueVXLJeL._SL1500_.jpg",
+      "year": 2013
+    },
+    {
+      "name": "The 2nd Law",
+      "cover": "https://img.discogs.com/n9gHMkxZRxV6wFXY-Bp3JYUI6Do=/fit-in/600x554/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-3908448-1350311676-5656.jpeg.jpg",
+      "year": 2012
+    },
+    {
+      "name": "The Resistance",
+      "cover": "https://images-na.ssl-images-amazon.com/images/I/91ZwmJUvFDL._SL1500_.jpg",
+      "year": 2009
+    }
+  ]
+}

@@ -74,5 +74,5 @@ Now that you're finished, note that you might have missed some finishing touches
   - The header at the top of the screen stays put, and some sort of shadow appears under it! Hmm...
   - Once the track list's header reaches the top, it also stays put!
   - See [position: fixed/sticky](https://developer.mozilla.org/en-US/docs/Web/CSS/position) for this. Note that the sticky position can be tricky! 😉
-- It's responsive! Dust of your media queries and give it a try, the changes are very small.
+- It's responsive! Dust off your media queries and give it a try, the changes are very small.
   - If you've used `display: flex;`, it will be very easy to turn horizontal layouts into vertical ones! 😉

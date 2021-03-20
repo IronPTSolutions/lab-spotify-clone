@@ -6,7 +6,6 @@ export default function Card({cover, name, year}) {
     2. title
     3. year
     */
-  console.log(cover);
   return <div className="Card">
     <div className="card-cover" style={{ backgroundImage: `url(${cover})` }} />
     <div className="card-name">{name}</div>

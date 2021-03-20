@@ -3,7 +3,7 @@
     left: 0;
     top: 0;
     width: 200px;
-    height: 89vh;
+    height: calc(100vh - 100px);
     background-color: hsl(0deg, 0%, 8%);
     color: hsl(0deg, 0%, 80%);
 }
@@ -47,7 +47,7 @@
 
 .Sidebar .sections {
     padding: 15px 20px;
-    height: 15vh;
+    height: 120px;
 }
 
 .Sidebar .section {
@@ -68,7 +68,7 @@
 }
 
 .Sidebar .section:hover>.icon {
-	filter: invert(0.9);
+    filter: invert(0.9);
 }
 
 .Sidebar .section>.icon>img {
@@ -83,7 +83,7 @@
 
 .Sidebar .your-library,
 .Sidebar .playlists {
-    padding: 20px;
+    padding: 20px 20px 20px
 }
 
 .Sidebar .sidebar-title {
@@ -94,7 +94,7 @@
 }
 
 .Sidebar .sidebar-scrollable {
-    overflow-x: scroll;
+    overflow-x: hidden;
     height: calc(89vh - 70px - 15vh);
 }
 
@@ -104,10 +104,11 @@
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 0.75rem;
-	font-weight: bold;
+    font-weight: bold;
     color: hsl(0deg, 0%, 80%);
     margin-top: 10px;
 }
+
 .Sidebar .section:hover,
 .Sidebar .section-name:hover,
 .Sidebar .library-element:hover,
@@ -116,8 +117,8 @@
     color: hsl(0deg, 0%, 100%);
 }
 
-@media(max-width: 500px) {
-	.Sidebar {
-		display: none;
-	}
+@media(max-width: 600px) {
+    .Sidebar {
+        display: none;
+    }
 }

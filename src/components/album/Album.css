@@ -1,5 +1,5 @@
 .Album {
-    height: 89vh;
+    height: calc(100vh - 100px);
     width: calc(100vw - 200px);
     position: fixed;
     top: 0;
@@ -61,7 +61,7 @@
 }
 
 
-@media(max-width: 500px) {
+@media(max-width: 600px) {
     .Album {
         width: 100vw;
         left: 0;

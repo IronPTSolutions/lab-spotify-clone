@@ -1,0 +1,69 @@
+.Album {
+    height: 89vh;
+    width: calc(100vw - 200px);
+    position: fixed;
+    top: 0;
+    left: 200px;
+    overflow-y: scroll;
+}
+
+.Album>.album-tracks {
+    border-collapse: collapse;
+    font-size: 0.8rem;
+    margin: 0 30px 20px 30px;
+}
+
+.Album>.album-tracks>.tracks-header {
+    border-top: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.6rem;
+    color: hsl(0deg, 0%, 70%);
+}
+
+.Album>.album-tracks>.tracks-header>.Track {
+    border-top: none;
+}
+
+.Album>.album-tracks>.tracks-header>tr>th.left {
+    text-align: left;
+}
+
+.Album>.album-tracks>.tracks-header>tr>th {
+    position: sticky;
+    top: 50px;
+    background-color: hsl(0deg, 0%, 10%);
+}
+
+.Album>.album-label {
+    margin: 0 30px 40px 30px;
+    font-size: 0.7rem;
+    color: hsl(0deg, 0%, 70%);
+}
+
+.Album>.more>.more-title {
+    padding-bottom: 5px;
+    border-bottom: 1px solid hsl(0deg, 0%, 20%);
+    margin: 0 30px 20px 30px;
+}
+
+.Album>.more>.more-albums {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.Album>.more>.more-albums::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+
+@media(max-width: 500px) {
+    .Album {
+        width: 100vw;
+        left: 0;
+    }
+}

@@ -1,0 +1,33 @@
+.Card {
+    margin-right: 20px;
+}
+
+.Card:last-child {
+	border-right: 30px solid transparent;
+}
+
+.Card>.card-cover {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.Card>.card-name {
+    margin-top: 12px;
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+}
+
+.Card>.card-year {
+    font-size: 0.7rem;
+    margin-top: 5px;
+    letter-spacing: 0.1rem;
+    color: hsl(0deg, 0%, 60%);
+}

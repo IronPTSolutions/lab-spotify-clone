@@ -1,0 +1,111 @@
+.AlbumHeader {
+    display: flex;
+    margin-bottom: 20px;
+    background: linear-gradient(hsl(0deg, 0%, 20%), transparent 200px);
+    padding: 70px 30px 0px 30px;
+}
+
+.AlbumHeader>.album-cover {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    transition: transform 0.25s;
+}
+
+.AlbumHeader>.album-info {
+    margin-top: auto;
+}
+
+.AlbumHeader>.album-info>.album-label {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    letter-spacing: 0.1rem;
+}
+
+.AlbumHeader>.album-info>.album-name {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+    letter-spacing: -0.05rem;
+}
+
+.AlbumHeader>.album-info>.album-artist,
+.AlbumHeader>.album-info>.album-extra {
+    color: hsl(0deg, 0%, 70%);
+    font-size: 0.75rem;
+    letter-spacing: 0.05rem;
+}
+
+.AlbumHeader>.album-info>.album-artist>strong {
+    color: hsl(0deg, 0%, 100%);
+}
+
+.AlbumHeader>.album-info>.album-extra>.separator {
+    margin: 0 5px;
+}
+
+.AlbumHeader>.album-info>.album-buttons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.AlbumHeader>.album-info>.album-buttons>div:hover {
+    cursor: pointer;
+}
+
+.AlbumHeader>.album-info>.album-buttons>.album-button {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid hsl(0deg, 0%, 80%);
+    text-align: center;
+    margin-left: 10px;
+    transition: transform 0.25s;
+}
+
+.AlbumHeader>.album-info>.album-buttons>.album-button:hover,
+.AlbumHeader>.album-info>.album-buttons>.play:hover,
+.AlbumHeader>.album-cover:hover {
+    transform: scale(1.03);
+}
+
+.AlbumHeader>.album-info>.album-buttons>.play {
+    background-color: hsl(122deg, 100%, 40%);
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    border-radius: 50px;
+    transition: transform 0.25s;
+}
+
+@media(max-width: 738px) {
+    .AlbumHeader {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .AlbumHeader>.album-cover {
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 500px) {
+    .AlbumHeader {
+        align-items: center;
+    }
+
+    .AlbumHeader>.album-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .AlbumHeader>.album-info>.album-buttons {
+        justify-content: center;
+    }
+}

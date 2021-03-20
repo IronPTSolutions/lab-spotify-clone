@@ -1,0 +1,45 @@
+.Header {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: calc(100vw - 200px);
+    padding: 10px 20px 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.Header>input {
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    height: 25px;
+    padding: 0px 10px;
+}
+
+.Header>.header-right>.user {
+    display: flex;
+}
+.Header>.header-right>.user>.user-icon>img {
+    height: 20px;
+    filter: invert(0.8);
+}
+
+.Header>.header-right>.user {
+    font-size: 0.8rem;
+}
+
+.Header>.header-right>.user>.user-name {
+    margin-left: 10px;
+}
+
+.Header>.header-right>.user:hover {
+    cursor: default;
+    text-decoration: underline;
+}
+
+@media(max-width: 500px) {
+    .Header {
+        width: 100vw;
+    }
+}

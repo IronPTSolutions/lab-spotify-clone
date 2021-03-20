@@ -1,0 +1,40 @@
+.Track {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid hsl(0deg, 0%, 20%);
+    border-bottom: 1px solid hsl(0deg, 0%, 20%);
+}
+
+.Track:hover {
+    background-color: hsl(0deg, 0%, 20%);
+	cursor: pointer;
+}
+
+.Track>td, .Track>th {
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+.Track>.track-number {
+    width: 30px;
+}
+
+.Track>.track-like {
+    width: 30px;
+}
+
+.Track>.track-name {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Track>.track-duration {
+    width: 30px;
+}
+
+.Track>.track-popularity {
+    width: 30px;
+}

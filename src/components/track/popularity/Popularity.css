@@ -1,0 +1,19 @@
+.Popularity {
+	display: flex;
+}
+
+.Popularity>.filled,
+.Popularity>.empty {
+    width: 2px;
+    height: 8px;
+	margin-right: 1px;
+	display: block;
+}
+
+.Popularity>.filled {
+    background-color: hsl(0deg, 0%, 80%);
+}
+
+.Popularity>.empty {
+    background-color: hsl(0deg, 0%, 40%);
+}

@@ -1,0 +1,123 @@
+.Sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 89vh;
+    background-color: hsl(0deg, 0%, 8%);
+    color: hsl(0deg, 0%, 80%);
+}
+
+.Sidebar .add-list {
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    border-top: 1px solid hsl(0deg, 0%, 20%);
+    display: flex;
+    align-items: center;
+    color: hsl(0deg, 0%, 70%);
+    font-size: small;
+    box-shadow: -5px -5px 10px 0 hsl(0deg 0% 5%);
+}
+
+.Sidebar .add-list:hover,
+.Sidebar .add-list:hover .add-button {
+    color: hsl(0deg, 0%, 90%);
+    cursor: pointer;
+}
+
+.Sidebar .add-list:hover .add-button {
+    border-color: hsl(0deg, 0%, 90%);
+}
+
+.Sidebar .add-button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid hsl(0deg, 0%, 50%);
+    border-radius: 50%;
+    line-height: 27px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-right: 10px;
+}
+
+.Sidebar .sections {
+    padding: 15px 20px;
+    height: 15vh;
+}
+
+.Sidebar .section {
+    display: flex;
+    align-items: center;
+}
+
+.Sidebar .section+.section {
+    margin-top: 10px;
+}
+
+.Sidebar .section>.icon {
+    display: flex;
+    justify-content: space-evenly;
+    height: 18px;
+    width: 18px;
+    filter: invert(0.7);
+}
+
+.Sidebar .section:hover>.icon {
+	filter: invert(0.9);
+}
+
+.Sidebar .section>.icon>img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Sidebar .section-name {
+    margin-left: 20px;
+    font-weight: lighter;
+}
+
+.Sidebar .your-library,
+.Sidebar .playlists {
+    padding: 20px;
+}
+
+.Sidebar .sidebar-title {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 0.65rem;
+    color: hsl(0deg, 0%, 80%)
+}
+
+.Sidebar .sidebar-scrollable {
+    overflow-x: scroll;
+    height: calc(89vh - 70px - 15vh);
+}
+
+.Sidebar .library-element,
+.Sidebar .playlist {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.75rem;
+	font-weight: bold;
+    color: hsl(0deg, 0%, 80%);
+    margin-top: 10px;
+}
+.Sidebar .section:hover,
+.Sidebar .section-name:hover,
+.Sidebar .library-element:hover,
+.Sidebar .playlist:hover {
+    cursor: pointer;
+    color: hsl(0deg, 0%, 100%);
+}
+
+@media(max-width: 500px) {
+	.Sidebar {
+		display: none;
+	}
+}

@@ -5,6 +5,8 @@
 }
 
 body {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   font-family: 'Open Sans', sans-serif;
+  background-color: hsl(0deg, 0%, 10%);
+  overscroll-behavior-y: none;
 }

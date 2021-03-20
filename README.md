@@ -35,7 +35,7 @@ Once you've got the hang of what things are supposed to look like, you've got to
 The first step is to **componentize** the application. There are three reasons why you might want to turn something into a component of its own:
 
 - To keep the code **[DRY](https://es.wikipedia.org/wiki/DRY)**. If you're going to use something more than once, it's always better to move it into a component that can be customized using props! For example, the album's tracks will repeat N times, once for each track in the album. Remember the [Lists and Keys lesson](https://reactjs.org/docs/lists-and-keys.html).
-- To isolate **sections**. In this view there's three large sections: the sidebar to the left, the controls pannel at the bottom, and the main content with the album's info and tracks, so that's a good starting point.
+- To isolate **sections**. In this view there's three large sections: the sidebar to the left, the controls panel at the bottom, and the main content with the album's info and tracks, so that's a good starting point.
 - With React and the way it's indented by default by Prettier, it's very easy to end up with **components that are hundreds of lines long**. There might be some elements that don't repeat and that don't really represent a section of the page, but despite being relatively simple, they are long enough to isolate. For example, in the final solution we moved the top part of the main section with the album cover, title, year, etc. into its own component.
 
 Here's an example with some components highlighted. Take into account that we haven't highlighted all the components in the final solution! We added many more 😙

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lab-spotify-clone/static/css/main.6928b09b.chunk.css",
+    "main.css": "/lab-spotify-clone/static/css/main.edb61722.chunk.css",
     "main.js": "/lab-spotify-clone/static/js/main.e8d4459e.chunk.js",
     "main.js.map": "/lab-spotify-clone/static/js/main.e8d4459e.chunk.js.map",
     "runtime-main.js": "/lab-spotify-clone/static/js/runtime-main.acb30c5f.js",
@@ -10,7 +10,7 @@
     "static/js/3.8bb4129f.chunk.js": "/lab-spotify-clone/static/js/3.8bb4129f.chunk.js",
     "static/js/3.8bb4129f.chunk.js.map": "/lab-spotify-clone/static/js/3.8bb4129f.chunk.js.map",
     "index.html": "/lab-spotify-clone/index.html",
-    "static/css/main.6928b09b.chunk.css.map": "/lab-spotify-clone/static/css/main.6928b09b.chunk.css.map",
+    "static/css/main.edb61722.chunk.css.map": "/lab-spotify-clone/static/css/main.edb61722.chunk.css.map",
     "static/js/2.4033a924.chunk.js.LICENSE.txt": "/lab-spotify-clone/static/js/2.4033a924.chunk.js.LICENSE.txt",
     "static/media/devices.83882a80.svg": "/lab-spotify-clone/static/media/devices.83882a80.svg",
     "static/media/expand.5a6bb724.svg": "/lab-spotify-clone/static/media/expand.5a6bb724.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.acb30c5f.js",
     "static/js/2.4033a924.chunk.js",
-    "static/css/main.6928b09b.chunk.css",
+    "static/css/main.edb61722.chunk.css",
     "static/js/main.e8d4459e.chunk.js"
   ]
 }

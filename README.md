@@ -14,11 +14,11 @@ Note that this is a self-guided optional lab. You can go as far as you want with
 
 ### 0️⃣ | Give it a try
 
-The easiest way to practice CSS is to clone an existing website. It frees your mind from thinking about the design side of things, and you can just focus on building something as close as possible as the example you already have.
+The easiest way to practice CSS is to clone an existing website. It frees your mind from thinking about the design side of things, and you can just focus on building something as close as possible to the example you already have.
 
 Thus, the first step is to [go to the website](https://ironptsolutions.github.io/lab-spotify-clone/) and tinker with it.
 
-> ⚠️ **Don't copy the code!** ⚠️ We don't care if you steal the code: the issue is that the goal of this lab is to **practice, practice, practice**! If you copy the code from the solution branch or the deployed app, you're better off spending your time elsewhere. If you hit a roadblock, just ask in the `#dudas` chat and we'll get back to you :)
+> ⚠️ **Don't copy the code!** ⚠️ We don't care if you steal the code: the issue is that the goal of this lab is to **practice, practice, practice**! If you copy the code from the solution branch or the deployed app, you're better off spending your time elsewhere. If you hit a roadblock, just ask in the `#dudas` chat and we'll get back to you ASAP :)
 
 ![tinker](/readme-images/tinkering.gif)
 
@@ -42,7 +42,7 @@ Here's an example with some components highlighted. Take into account that we ha
 
 ![components](/readme-images/components.png)
 
-To help you with this task, we have split the code into 6 components:
+To help you with this task, we have already split the code into 6 components:
 
 - album: represents the main view of the screen (yellow box)
 - card: we used it for the albums that are displayed at the bottom of the main section (not highlighted)
@@ -51,7 +51,7 @@ To help you with this task, we have split the code into 6 components:
 - sidebar: (the red box)
 - track: each of the rows in the albums view (neon green boxes)
 
-It's just a guide, you can refactor whatever you want!
+It's just a guide, you can add and refactor whatever you want!
 
 ### 2️⃣ | It's time to code!
 
@@ -61,7 +61,7 @@ Now that you know the structure, you can start creating your components! Some re
 - go from big to small
 - have fun!
 
-Just so you can leave the boring stuff aside, you can find the mock data in the [constants](./src/constants) folder and the icons in the [assets](./src/assets) folder. Feel free to switch them as you want!
+Just so you can leave the boring stuff aside, you can find the mock data in the [constants](./src/constants) folder and the icons in the [assets](./src/assets) folder. Feel free to change them!
 
 ### 3️⃣ | 🌟 Bonus 🌟 Finishing touches
 
